@@ -1,0 +1,18 @@
+#NAMA : Nopal
+#NIM : D0425005
+
+#TUPLE
+
+warna = ("hitam", "merah", "putih") #tuple tidak bisa diubah
+print("isi tuple: ",warna)
+print("elemen ke-1:", warna[0])
+# Warna[1] = "hitam" #ini akan ERROR karna tuple tidak bisa diubah
+
+
+#List
+hewan = ["ikan", "sapi", "kangguru"] #bisa ubah
+print("sebelum diubah:", hewan)
+
+hewan[1] = "sapi"  #mengubah isi
+hewan.append("kangguru") #menambah data
+print("Setelah diubah:", hewan)
